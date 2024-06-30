@@ -1,0 +1,37 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/TitleEdit"
+            android:inputType="text"
+            android:hint="Write Note Heading..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/Contentedit"
+            android:inputType="text"
+            android:hint="Write Note..." />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Addbtnn"
+        android:text="Add note"
+        android:background="#FFEB3B"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp" />
+</RelativeLayout>
